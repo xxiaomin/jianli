@@ -31,7 +31,7 @@
           <span
             >作者 {{ article.aut_name }}&nbsp;&nbsp;
             {{ article.comm_count }} 评论 &nbsp;&nbsp; 发布日期
-            {{ article.pubdate || dateFormat }}</span
+            {{ article.pubdate }}</span
           >
           <!-- 关闭按钮 -->
           <van-icon name="cross" />
